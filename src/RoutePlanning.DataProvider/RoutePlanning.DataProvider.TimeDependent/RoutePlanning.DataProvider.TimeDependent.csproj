@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RoutePlanning.Algorithm\RoutePlanning.Algorithm.TimeDependent\RoutePlanning.Algorithm.TimeDependent.csproj" />
+    <ProjectReference Include="..\RoutePlanning.DataProvider.MemoryCache\RoutePlanning.DataProvider.MemoryCache.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Guru" Version="1.0.8" />
+  </ItemGroup>
+</Project>
